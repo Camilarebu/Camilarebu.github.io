@@ -12,21 +12,12 @@
     
     
     <item>
-      <title>Vertederos en Chiloe</title>
+      <title>Vertederos en Chiloé</title>
       <link>https://camilarebu.github.io/docs/instalar-tema/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
       <guid>https://camilarebu.github.io/docs/instalar-tema/</guid>
-      <description>Vertederos en Chiloe</description>
-    </item>
-    
-    <item>
-      <title>Vertederos en Chiloe</title>
-      <link>https://camilarebu.github.io/docs/markdown/</link>
-      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
-      
-      <guid>https://camilarebu.github.io/docs/markdown/</guid>
-      <description>Vertederos en Chiloe</description>
+      <description>Vertederos en Chiloé</description>
     </item>
     
     <item>
@@ -45,6 +36,15 @@
       
       <guid>https://camilarebu.github.io/docs/ejemplo/</guid>
       <description>Uso de los Shortcodes para agregar contenido en el sitio de documentación.</description>
+    </item>
+    
+    <item>
+      <title>Ejemplos Markdown</title>
+      <link>https://camilarebu.github.io/docs/markdown/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://camilarebu.github.io/docs/markdown/</guid>
+      <description>Ejemplos de uso de lenguaje Markdown para redactar las publicaciones.</description>
     </item>
     
     <item>
