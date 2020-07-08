@@ -12,21 +12,30 @@
     
     
     <item>
-      <title>Vertederos en Chiloé</title>
-      <link>https://camilarebu.github.io/docs/instalar-tema/</link>
+      <title>Objetivos del Curso</title>
+      <link>https://camilarebu.github.io/docs/objetivos/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>https://camilarebu.github.io/docs/instalar-tema/</guid>
-      <description>Vertederos en Chiloé</description>
+      <guid>https://camilarebu.github.io/docs/objetivos/</guid>
+      <description>Objetivos general y específico del Taller del segundo trimestre de 2020.</description>
     </item>
     
     <item>
-      <title>Configuración</title>
-      <link>https://camilarebu.github.io/docs/configuracion/</link>
+      <title>Invernadero</title>
+      <link>https://camilarebu.github.io/docs/invernadero/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>https://camilarebu.github.io/docs/configuracion/</guid>
-      <description>Tutorial de configuración básica del menú y otros elementos del tema.</description>
+      <guid>https://camilarebu.github.io/docs/invernadero/</guid>
+      <description>Creación Invernaderos Fusion 360</description>
+    </item>
+    
+    <item>
+      <title>Vertederos en Chiloé</title>
+      <link>https://camilarebu.github.io/docs/encargo-1/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://camilarebu.github.io/docs/encargo-1/</guid>
+      <description>Planteamiento de una problemática en un territorio escogido</description>
     </item>
     
     <item>
@@ -48,12 +57,12 @@
     </item>
     
     <item>
-      <title>Objetivos del Curso</title>
-      <link>https://camilarebu.github.io/docs/objetivos/</link>
+      <title>Configuración</title>
+      <link>https://camilarebu.github.io/docs/configuracion/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>https://camilarebu.github.io/docs/objetivos/</guid>
-      <description>Objetivos general y específico del Taller del segundo trimestre de 2020.</description>
+      <guid>https://camilarebu.github.io/docs/configuracion/</guid>
+      <description>Tutorial de configuración básica del menú y otros elementos del tema.</description>
     </item>
     
   </channel>
