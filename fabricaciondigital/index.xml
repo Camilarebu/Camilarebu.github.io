@@ -12,12 +12,12 @@
     
     
     <item>
-      <title>Instalar Tema</title>
-      <link>https://camilarebu.github.io/fabricaciondigital/docs/instalar-tema/</link>
+      <title>Entrega Nº1: Planimetrías</title>
+      <link>https://camilarebu.github.io/fabricaciondigital/docs/silla-fusion-360/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>https://camilarebu.github.io/fabricaciondigital/docs/instalar-tema/</guid>
-      <description>Tutorial de intalación del tema utilizando el Framework Hugo.</description>
+      <guid>https://camilarebu.github.io/fabricaciondigital/docs/silla-fusion-360/</guid>
+      <description>Planimetrías de silla en fusion 360</description>
     </item>
     
     <item>
@@ -27,6 +27,15 @@
       
       <guid>https://camilarebu.github.io/fabricaciondigital/docs/configuracion/</guid>
       <description>Tutorial de configuración básica del menú y otros elementos del tema.</description>
+    </item>
+    
+    <item>
+      <title>Instalar Tema</title>
+      <link>https://camilarebu.github.io/fabricaciondigital/docs/instalar-tema/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://camilarebu.github.io/fabricaciondigital/docs/instalar-tema/</guid>
+      <description>Tutorial de intalación del tema utilizando el Framework Hugo.</description>
     </item>
     
     <item>
