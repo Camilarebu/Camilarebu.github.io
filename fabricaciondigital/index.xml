@@ -21,12 +21,12 @@
     </item>
     
     <item>
-      <title>Configuración</title>
-      <link>https://camilarebu.github.io/fabricaciondigital/docs/configuracion/</link>
+      <title>Entrega Nº2: Mecanizado CNC</title>
+      <link>https://camilarebu.github.io/fabricaciondigital/docs/entrega-n%C2%BA2-mecanizado-cnc/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>https://camilarebu.github.io/fabricaciondigital/docs/configuracion/</guid>
-      <description>Tutorial de configuración básica del menú y otros elementos del tema.</description>
+      <guid>https://camilarebu.github.io/fabricaciondigital/docs/entrega-n%C2%BA2-mecanizado-cnc/</guid>
+      <description>Mecanizado Silla Fresia Fusion 360</description>
     </item>
     
     <item>
@@ -36,6 +36,15 @@
       
       <guid>https://camilarebu.github.io/fabricaciondigital/docs/instalar-tema/</guid>
       <description>Tutorial de intalación del tema utilizando el Framework Hugo.</description>
+    </item>
+    
+    <item>
+      <title>Configuración</title>
+      <link>https://camilarebu.github.io/fabricaciondigital/docs/configuracion/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://camilarebu.github.io/fabricaciondigital/docs/configuracion/</guid>
+      <description>Tutorial de configuración básica del menú y otros elementos del tema.</description>
     </item>
     
     <item>
