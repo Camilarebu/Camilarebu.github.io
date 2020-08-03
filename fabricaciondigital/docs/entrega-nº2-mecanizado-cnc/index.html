@@ -135,27 +135,71 @@
 <h2 id="proceso-mecanizado-silla-fresia">Proceso Mecanizado Silla Fresia</h2>
 <h3 id="1-creación-de-área-de-trabajo">1. Creación de área de trabajo</h3>
 <p>Partimos con el objeto ya modelado, es decir, nuestra silla. Crearemos una media plancha de terciario de 1220 mm x 1220 mm, de un grosor de 15mm donde colocaremos las piezas a mecanizar y nos aseguramos de escoger el tamaño de la fresa (flat and mill de 6mm de diámetro).</p>
+<p><img src="/fabricaciondigital/img/0.png" alt="Ejemplosilla"></p>
 <h3 id="2-piezas-a-mecanizar">2. Piezas a Mecanizar</h3>
 <p>Crear copia de las piezas que quiero mecanizar (MOVE/COPY). Alinear las caras (sin calado) al plano X y orientar las piezas en el área de corte (plancha creada en paso 1)</p>
-<h3 id="3-set-up-entorno-de-mecanizado">3. Set Up Entorno de Mecanizado</h3>
+<p><img src="/fabricaciondigital/img/2.png" alt="Ejemplosilla"></p>
+<h3 id="3-set-up---entorno-de-mecanizado">3. Set Up - Entorno de Mecanizado</h3>
 <p>Nos vamos a manufacture &ndash;&gt; SetUp, en donde elegimos la máquina Generic 3-Axis, definimos las piezas a cortar y las orientaciones y el espacio de trabajo.</p>
+<p><img src="/fabricaciondigital/img/1.png" alt="Ejemplosilla"></p>
 <h3 id="4-2d-contour-interior">4. 2D Contour Interior</h3>
-<p>Esta operación se usa para el interior de cada pieza. Nos acercamos a cada pieza y seleccionamos el vector inferior del calado de cada una.
-Posteriormente nos vamos a Editar Passes. Una fresa de 6mm no puede calar una placa de 15 mm de una sola pasada porque la madera no queda bien calada y la fresa se va a desagastar mucho. Para solucionar esto seleccionamos Multiple Depths de 3 mm (el 50% de la fresa).</p>
+<p>Esta operación se usa para el interior de cada pieza, en la extracción de material, por medio de cortes, que permiten dejar “huecos” o espacios libres de material en las partes requeridas por la pieza que se esta trabajando. Nos acercamos a cada pieza y seleccionamos el vector inferior del calado de cada una. Posteriormente nos vamos a Editar Passes. Una fresa de 6mm no puede calar una placa de 15 mm de una sola pasada porque la madera no queda bien calada y la fresa se va a desagastar mucho. Para solucionar esto seleccionamos Multiple Depths de 3 mm (el 50% de la fresa).</p>
+<p><img src="/fabricaciondigital/img/3.png" alt="Ejemplosilla"></p>
 <p>Las lineas azules son la trayectoria que seguirá la fresa para mecanizar la placa.</p>
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/fabricaciondigital/img/1.mov"  type="video/mp4">
+    </video>
+</div>
+<h3 id="5-2d-contour-exterior">5. 2D Contour Exterior</h3>
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/fabricaciondigital/img/3.mov"  type="video/mp4">
+    </video>
+</div>
+<h3 id="6-2d-pocket-exterior">6. 2D Pocket Exterior</h3>
+<p>Usar esta herramienta para rebajar las partes de las piezas que no son cortorno, se refiere a el trabajo de mecanizado o corte, realizado en las partes externas de la pieza. Consiste en el corte de la silueta externa de la pieza y por ende su separación del “Stock” o estructura material base.</p>
+<p><img src="/fabricaciondigital/img/6.png" alt="Ejemplosilla"></p>
+<p>En estos procesos, se hace necesario generar “tabs” en ciertas partes de la ruta de corte, estos cumplen la funcion de mantener estable la pieza durante todo el proceso de corte, evitando desplazamientos no deseados que puedan dañar la estructura de la pieza.</p>
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/fabricaciondigital/img/2.mov"  type="video/mp4">
+    </video>
+</div>
+<h3 id="7-trazado">7. Trazado</h3>
+<p>Aquí realizaremos nuevamente un sketch, esta vez de una plancha de terciado con 9mm y definiremos el contorno exterior del asiento con la función 2D Contour como lo hicimos anteriormente.</p>
+<p><img src="/fabricaciondigital/img/7.png" alt="Ejemplosilla"></p>
+<p>La parte del asiento tiene varios trazados en la parte inferior de la pieza, estos recortes sirven para generar la flexibilidad del material. Para poder generar estos trazados ocuparemos la función Trace para definir cada linea de recorte. Le pediremos a la fresa que haga cortes con 4.5mm de profunidad.</p>
+<p><img src="/fabricaciondigital/img/5.png" alt="Ejemplosilla"></p>
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/fabricaciondigital/img/4.mov"  type="video/mp4">
+    </video>
+</div>
 <h3 id="modelo-en-fusion-360">Modelo en Fusion 360</h3>
+
 <div>
     <iframe 
     src="https://gmail984337.autodesk360.com/shares/public/SH919a0QTf3c32634dcf0942b2fd4b73eca6?mode=embed"
+    width="100%" 
+    height="450" 
     allowfullscreen="true" 
     webkitallowfullscreen="true" 
     mozallowfullscreen="true"  
     frameborder="0">
     </iframe>    
-</div>
-
-
-
 
 
 
