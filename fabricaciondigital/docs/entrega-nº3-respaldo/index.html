@@ -131,7 +131,49 @@
           
 <h1 class="title">Entrega Nº3: Respaldo</h1>
 <div class="content ">
-  <p>Para realizar el respaldo, hay que hacer una caja, simulando la madera, de manera que el respaldo quede adentro por completo. Para el mecanizado se usará la misma fresa que se usó para las otras partes de la silla, Flat and mill de 6mm de diámetro. Al igual que el otro mecanizado es importante definir bien la orientación de la fresa. Para hacer los cortes hay que hacer un sketch con project, donde se proyecte la zona que se cortará. Para hacerlo hay que hacer un sketch, seleccionar la cara, y seleccionar project, escogiendo el respaldo como proyeccción. Así se crea una proycección en la cual se puede empezar a mecanizar.</p>
+  <p>Vamos a generar las trayectorias del desbaste del respaldo de la silla para que la máquina pueda fabricar el diseño utilizando Fusion 360.</p>
+<p><img src="/fabricaciondigital/img/respaldo/portada.png" alt="Ejemplosilla"></p>
+<h2 id="desbaste">Desbaste</h2>
+<p>Desbastar se refiere a eliminar fragmentos grandes de alguna superficie que se quiere perfeccionar. En este caso, el respaldo de la silla tiene una superficie curva y prolija que la CNC no consigue solo con el rebaje en 2D.</p>
+<h2 id="mecanizado-25d">Mecanizado 2.5D</h2>
+<p>Un mecanizado de piezas con la estrategia de corte 2,5 se lleva a cabo cuando la herramienta se puede mover en un máximo de 3 ejes de la máquina, (X, Y, Z), pero nunca se podrá mover en las tres coordenadas al mismo tiempo durante la trayectoria. Es decir, Una maquina 2,5 posee la capacidad de traducir en los tres ejes, pero puede llevar a cabo la operación de corte solo en dos de los tres ejes a la vez (Hay un desplazamiento en ejes X e Y, pero en Z sólo se comienza y termina).</p>
+<p>Por otro lado, las operaciones de mecanizado en 3 ejes permiten sacar el máximo provecho del control de la maquina fresadora, con la capacidad de controlar los tres ejes a la vez en las trayectorias de corte. La gran diferencia entre un mecanizado y otro se encuentra en que las estrategias de corte de 2,5 ejes se utilizan para mecanizados rápidos y de piezas sencillas, como en superficies curvas donde el acabado no es crítico, así como es el caso del respaldo de la Silla Fresia. Las operaciones de mecanizado en 3 ejes continuos se emplean para dar una mayor calidad en el acabado superficial, en cuanto al tipo de rugosidad y crestas.</p>
+<h6 id="optimizar-tiempo-de-mecanizado">Optimizar Tiempo de Mecanizado</h6>
+<p>El tiempo de mecanizado es importante de considerar ya que podría influir en los precios y en el beneficio que se puede obtener de cada pieza. Mediante una optimización del tiempo del ciclo de mecanizado se puede aumentar fácilmente la capacidad máxima de producción del taller (pensando en una producción industrial o en serie).</p>
+<h2 id="proceso">Proceso</h2>
+<h3 id="1-orientación">1. Orientación</h3>
+<p>Los primero es orientar la figura lo más horizontal posible, nos debemos asegurar de que el archivo esté bien orientado con respecto a su origen y a su ortogonalidad. Una vez alineados desplazaremos el respaldo para acercarnos al origen, esto en general se debe hacer con cada archivo a mecanizar para asegurar que la pieza esté ortogonal, ya que cualquier pieza a la que se le haga un mecanizado por las dos caras deben estar de forma paralela.</p>
+<p>Luego, hay que hacer una caja, simulando la madera de manera que el respaldo quede adentro por completo. Para el mecanizado se usará la misma fresa que se usó para las otras partes de la silla, Flat and mill de 6mm de diámetro. Al igual que el otro mecanizado es importante definir bien la orientación de la fresa.</p>
+<p><img src="/fabricaciondigital/img/respaldo/respaldo1.png" alt="Ejemplosilla"></p>
+<h3 id="2-set-up">2. Set-Up</h3>
+<p>Nos vamos a  modo MANUFACTURE , en donde hacemos un setup de la máquina que ocuparemos, en ese caso utilizaremos Autodesk CNC de 3 Axis, y en stock debemos cambiar el modo a sólido para seleccionar el bloque de madera, después volvemos a setup para otorgarle orientación y un punto de origen respecto al mecanizado. Por último seleccionaremos el respaldo como model.</p>
+<p><img src="/fabricaciondigital/img/respaldo/respaldo2.png" alt="Ejemplosilla"></p>
+<p>Una vez que tenemos configurado todo lo anterior, antes de comenzar el proceso de mecanizado, debemos volver al modo DESIGN para hacer un nuevo sketch. Este sketch consiste en generar un project del respaldo hacia la cara superior del bloque de madera para optimizar el mecanizado. Ahora que tenemos el área del mecanizado podemos volver al modo MANUFACTURE.</p>
+<p><img src="/fabricaciondigital/img/respaldo/respaldo3.png" alt="Ejemplosilla"></p>
+<h3 id="3-adaptive-clearing">3. Adaptive Clearing</h3>
+<p>Volvemos al espacio de Manufactura y ejecutamos la primera trayectoria con “Adaptive Clearing”, que consiste en poder remover material y así optimizar el tiempo del desbaste. Seleccionamos la misma fresa “6 mm Falt Endmill” ocupada en trabajos anteriores, pero modificándole su “Lenght below holder” de 22,5 a 40, para que la fresa no choque con la estructura que está cortando y el Optimal Load de 6mm a 3mm.</p>
+<p><img src="/fabricaciondigital/img/respaldo/respaldo5.png" alt="Ejemplosilla"></p>
+<p><img src="/fabricaciondigital/img/respaldo/respaldo4.png" alt="Ejemplosilla"></p>
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/fabricaciondigital/img/respaldo1.mov"  type="video/mp4">
+    </video>
+</div>
+<h3 id="4-parallel">4. Parallel</h3>
+<p>El paralell se trata de un mecanizado paralelo enl cual deja un acabado mas preciso, en esta etapa ocuparemos la fresa &quot; 6mm Ball End Mill &ldquo;con 50mm de Flute length. El fin de esta función es poder pasar del plano y generar una trayectoria que recorra la superficie con el fin de poder darle una terminación mucho más continua. Se deben hacer 2 parallel, por un lado y luego en passes de pone a 90ª y con stepover de 2 para una mejor resolución.</p>
+<p><img src="/fabricaciondigital/img/respaldo/respaldo6.png" alt="Ejemplosilla"></p>
+<h3 id="5-simulación">5. Simulación</h3>
+<div>
+    <video 
+    width="100%" 
+    height="450" 
+    autoplay muted loop controls preload>
+    <source src="/fabricaciondigital/img/respaldo2.mov"  type="video/mp4">
+    </video>
+</div>
 
 </div>
 </div>
