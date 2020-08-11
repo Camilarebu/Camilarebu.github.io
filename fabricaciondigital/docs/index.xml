@@ -39,12 +39,12 @@
     </item>
     
     <item>
-      <title>Instalar Tema</title>
-      <link>https://camilarebu.github.io/fabricaciondigital/docs/instalar-tema/</link>
+      <title>Ultra Bonus: Investigación Materiales</title>
+      <link>https://camilarebu.github.io/fabricaciondigital/docs/bonus-02-materiales/</link>
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
-      <guid>https://camilarebu.github.io/fabricaciondigital/docs/instalar-tema/</guid>
-      <description>Tutorial de intalación del tema utilizando el Framework Hugo.</description>
+      <guid>https://camilarebu.github.io/fabricaciondigital/docs/bonus-02-materiales/</guid>
+      <description>Investigación Materiales Biodegradables</description>
     </item>
     
     <item>
@@ -72,15 +72,6 @@
       
       <guid>https://camilarebu.github.io/fabricaciondigital/docs/markdown/</guid>
       <description>Ejemplos de uso de lenguaje Markdown para redactar las publicaciones.</description>
-    </item>
-    
-    <item>
-      <title>Objetivos del Curso</title>
-      <link>https://camilarebu.github.io/fabricaciondigital/docs/objetivos/</link>
-      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
-      
-      <guid>https://camilarebu.github.io/fabricaciondigital/docs/objetivos/</guid>
-      <description>Objetivos general y específico del Taller del segundo trimestre de 2020.</description>
     </item>
     
   </channel>
