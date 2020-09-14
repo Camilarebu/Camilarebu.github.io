@@ -74,5 +74,14 @@
       <description>Ejemplos de uso de lenguaje Markdown para redactar las publicaciones.</description>
     </item>
     
+    <item>
+      <title>Examen: Nuestro Producto</title>
+      <link>https://camilarebu.github.io/fabricaciondigital/docs/examen-producto/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://camilarebu.github.io/fabricaciondigital/docs/examen-producto/</guid>
+      <description>Examen Parte 1</description>
+    </item>
+    
   </channel>
 </rss>
